@@ -1,0 +1,23 @@
+"top10": [
+                  {
+                      "state": "red",
+                      "claimed": true,
+                      "branch": "release-2.3.4",
+                      "job": "sdk",
+                      "culprit": "Hansi Meier"
+                  },
+                  {
+                      "state": "blue",
+                      "claimed": true,
+                      "branch": "master",
+                      "job": "ibeo-cloud",
+                      "culprit": "Karl Gustavo"
+                  },
+                  {
+                      "state": "yellow",
+                      "claimed": false,
+                      "branch": "feature-abc",
+                      "job": "appbase",
+                      "culprit": "MAfred Auch"
+                  }
+        ]
