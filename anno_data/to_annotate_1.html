@@ -16,7 +16,7 @@
 <script>
 
     // Replace with the actual URL of your JSON data
-    const url = 'https://raw.githubusercontent.com/fuzhen-yin/2025_carto_test/refs/heads/main/anno_data/0719_all_n_downtown_to_anno_1.json'; 
+    const url = 'https://raw.githubusercontent.com/fuzhen-yin/2025_carto_test/refs/heads/main/anno_data/0729_all_n_downtown_to_anno_1.json'; 
 
     fetch(url)
     .then(response => {
@@ -43,7 +43,7 @@
                     dataContainer.appendChild(hh);
 
                     const p = document.createElement('p');
-                    p.textContent = "Coordinates: " + user.geometry_coordinates + "   ";
+                    p.textContent = "Coordinates: " + "[" + user.lat + "," + user.long + "]" + "   ";
                     p.textContent += "Captured at: " +  user.properties_captured_at;
                     dataContainer.appendChild(p);
                     dataContainer.appendChild(document.createElement('br'));
