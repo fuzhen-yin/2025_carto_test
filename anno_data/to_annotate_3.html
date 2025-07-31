@@ -16,7 +16,7 @@
 <script>
 
     // Replace with the actual URL of your JSON data
-    const url = 'https://raw.githubusercontent.com/fuzhen-yin/2025_carto_test/refs/heads/main/anno_data/0729_all_n_downtown_to_anno_3.json'; 
+    const url = 'https://raw.githubusercontent.com/fuzhen-yin/2025_carto_test/refs/heads/main/anno_data/0731_all_n_downtown_g_to_anno_3.json'; 
 
     fetch(url)
     .then(response => {
@@ -49,7 +49,7 @@
                     dataContainer.appendChild(document.createElement('br'));
 
                     const pp = document.createElement('p');
-                    pp.innerHTML = "<img src=\"" + user.img_url + "\" width=\"1200px\" >";
+                    pp.innerHTML = "<img src=\"" + user.img_g_url + "\" width=\"1200px\" >";
 
                     dataContainer.appendChild(pp);
                     dataContainer.appendChild(document.createElement('br'));
